@@ -1,0 +1,87 @@
+
+.hero {
+
+    background-image: url("/img/bgpalco.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color:rgba(0, 0, 0, 0.5);
+
+}
+.hero_container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 85rem;
+    height: 100vh;
+    margin: auto;
+    color: white;
+
+    .hero_description {
+
+        width: 50%;
+        margin-left: 4rem;
+
+        .hero_tittle {
+
+            display: flex;
+            flex-direction: column;
+
+            p {
+
+                font-size: 1.6rem;
+                position: relative;
+                margin-left: 2rem;
+                margin-bottom: 2rem;
+
+                &::before{
+
+                    content: "";
+                    position: absolute;
+                    left: -2rem;
+                    width: .4rem;
+                    height: 100%;
+                    background-color: $red;
+
+                }
+            }
+
+            h1 {
+
+                font-size: 5.6rem;
+                margin-bottom: 4rem;
+            }
+        }
+
+        .hero_characters {
+
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4rem;
+
+            a {
+
+                img {
+
+                    width: 16rem;
+                    transition: .3s;
+
+                    &:hover{
+
+                        transform: translateY(-1rem);
+                    }
+                }
+            }
+        }
+    }
+
+    .hero_img {
+
+        width: 35%;
+        
+        img {
+            width: 100%;
+        }
+    }
+}
