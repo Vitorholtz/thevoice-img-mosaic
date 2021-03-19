@@ -3,16 +3,16 @@
     max-width: 100rem;
     height: auto;
     margin: auto;
+    color: $white;
 
     p {
 
         font-size: 2.4rem;
         width: 90%;
         margin: auto;
-        color: white;
         text-align: center;
 
-        b{
+        strong{
             color: $red;
         }
     }
@@ -21,7 +21,6 @@
 
         font-size: 5rem;
         text-align: center;
-        color: white;
         position: relative;
         margin-top: 4rem;
         margin-bottom: 4rem;
@@ -53,7 +52,6 @@
     'img-8 img-11 img-14'
     'img-13 img-12 img-14';
 
-
        a {
 
         width: 100%;
@@ -80,7 +78,6 @@
             background: linear-gradient(180deg, rgba(32,32,32,0) 45%, rgba(18,18,20,1) 100%);
             transition: .4s;
 
-
         }
 
         &:hover::before{
@@ -96,9 +93,9 @@
             z-index: 100;
 
             .desc {
+
                 align-self: center;
                 font-size: 2rem;
-                color: white;
                 margin-right: 2rem;
 
                 .name {
@@ -217,7 +214,6 @@
     height: auto;
     font-size: 2rem;
     text-align: center;
-    color: white;
     margin: 4rem auto;
     padding: 1rem 0;
     background-color: $headerred;

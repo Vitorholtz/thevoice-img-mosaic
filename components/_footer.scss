@@ -3,7 +3,7 @@ footer {
     width: 100vw;
     margin-top: 16rem;
     background-color: $headerred;
-    color: white;
+    color: $white;
     padding: 8rem;
 
     h3 {
@@ -13,7 +13,7 @@ footer {
     }
 
     .copy_right {
-
+        font-size: 1.6rem;
         display: flex;
         justify-content: space-between;
     }

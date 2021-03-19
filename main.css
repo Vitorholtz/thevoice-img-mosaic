@@ -194,22 +194,12 @@ a:visited {
   max-width: 95rem;
   height: 100vh;
   margin: auto;
-  color: white;
+  color: #ffffff;
 }
 
 .hero_container .hero_description {
   width: 50%;
   margin-left: 4rem;
-}
-
-.hero_container .hero_description .hero_tittle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 .hero_container .hero_description .hero_tittle p {
@@ -268,24 +258,23 @@ a:visited {
   max-width: 100rem;
   height: auto;
   margin: auto;
+  color: #ffffff;
 }
 
 .img_mosaic p {
   font-size: 2.4rem;
   width: 90%;
   margin: auto;
-  color: white;
   text-align: center;
 }
 
-.img_mosaic p b {
+.img_mosaic p strong {
   color: #FF5E5E;
 }
 
 .img_mosaic h2 {
   font-size: 5rem;
   text-align: center;
-  color: white;
   position: relative;
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -363,7 +352,6 @@ a:visited {
       -ms-grid-row-align: center;
       align-self: center;
   font-size: 2rem;
-  color: white;
   margin-right: 2rem;
 }
 
@@ -486,7 +474,6 @@ a:visited {
   height: auto;
   font-size: 2rem;
   text-align: center;
-  color: white;
   margin: 4rem auto;
   padding: 1rem 0;
   background-color: #EE353B;
@@ -503,7 +490,7 @@ footer {
   width: 100vw;
   margin-top: 16rem;
   background-color: #EE353B;
-  color: white;
+  color: #ffffff;
   padding: 8rem;
 }
 
@@ -513,6 +500,7 @@ footer h3 {
 }
 
 footer .copy_right {
+  font-size: 1.6rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -585,6 +573,9 @@ footer .copy_right {
   }
   .img_mosaic .img_gallery .img-1, .img_mosaic .img_gallery .img-5, .img_mosaic .img_gallery .img-8, .img_mosaic .img_gallery .img-14 {
     min-height: initial;
+  }
+  .img_mosaic .seemore_btn {
+    width: 90%;
   }
   footer .copy_right {
     -webkit-box-orient: vertical;
