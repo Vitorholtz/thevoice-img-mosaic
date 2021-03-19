@@ -1,0 +1,208 @@
+@media only screen and (max-width: 1200px) {
+
+    html {
+        font-size: 55.5%;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+
+    html {
+        font-size: 50.5%;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+
+    html {
+        font-size: 45.5%;
+    }
+
+    .header_upper {
+
+        display: none;
+    }
+
+    .header_lower {
+
+        .hamburger-and-logo {
+            
+            .menu_left {
+
+                display: none;
+            }
+
+            .logo{
+
+                padding: 1rem;
+                border: none;
+            }
+        }
+
+        .header_input {
+            
+            i {
+
+                position: initial;
+            }
+
+            input {
+
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 760px) {
+
+    .hero {
+
+        .hero_container{
+
+            .hero_description{
+                text-align: center;
+
+                .hero_tittle{
+
+                    p {
+                        font-size: 2.6rem;
+                        margin-bottom: 5rem;
+
+                        &::before {
+
+                            bottom: -2rem;
+                            width: 5rem;
+                            height: .4rem;
+                            left: 45%;
+                        }
+                    }
+
+                    h1 {
+                        font-size: 6rem;
+                    }
+                }
+
+                .hero_characters{
+
+                    justify-content: center;
+
+                }
+            }
+        }
+    }
+
+    .img_mosaic {
+
+        .img_gallery {
+            margin: 0 .8rem;  
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: 
+            'img-1 img-2'
+            'img-3 img-4'
+            'img-5 img-6'
+            'img-7 img-8'
+            'img-9 img-10'
+            'img-11 img-12'
+            'img-13 img-14';
+
+            .img-1, .img-5, .img-8, .img-14 {
+                
+                min-height: initial;
+            }
+
+        }
+    }
+
+}
+
+@media only screen and (max-width: 680px) {
+
+    .header_lower{
+
+        .hamburger-and-logo{
+
+            .logo {
+                display: none;
+            }
+        }
+    }
+    
+    .hero {
+
+        .hero_container{
+
+            .hero_description{
+
+                width: 100%;
+                margin: 0 2rem;
+
+                .hero_characters{
+
+                    a {
+
+                        img {
+                            width: 22rem;
+                        }
+                    }
+                }
+            }
+
+            .hero_img{
+
+                display: none;
+            }
+
+        }
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .hero {
+
+        .hero_container{
+
+            .hero_description{
+
+                .hero_characters{
+
+                    a {
+                        img {
+                            width: 17rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .img_mosaic {
+
+        .img_gallery {
+
+            a {
+
+                .tag {
+
+                    .desc {
+                        font-size: 1.4rem;
+                    }
+
+                    .sticker {
+
+                        width: 8rem;
+                        height: 8rem;
+                    }
+                }
+            }
+
+        }
+    }
+
+
+
+
+}
+

@@ -1,27 +1,221 @@
 .img_mosaic {
- 
+    
     max-width: 100rem;
-    height: 100rem;
+    height: auto;
     margin: auto;
-    border: 1px red solid;
 
     h2 {
 
         font-size: 5rem;
+        text-align: center;
         color: white;
         position: relative;
-        margin-left: 2rem;
+        margin-bottom: 4rem;
 
         &::before{
 
             content: "";
             position: absolute;
-            left: -2rem;
-            width: .8rem;
-            height: 100%;
+            top: -2rem;
+            right: 45%;
+            width: 5rem;
+            height: .8rem;
             background-color: $red;
 
         }
     }
+
+    .img_gallery{
+     
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    'img-1 img-2 img-3'
+    'img-1 img-4 img-5'
+    'img-6 img-7 img-5'
+    'img-8 img-9 img-10'
+    'img-8 img-11 img-14'
+    'img-13 img-12 img-14';
+
+
+       a {
+
+        width: 100%;
+        height: 35rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1rem;
+        padding: 2rem;
+        position: relative;
+        
+
+        &::before {
+
+            content: '';
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            background: rgb(32,32,32);
+            background: linear-gradient(180deg, rgba(32,32,32,0) 45%, rgba(18,18,20,1) 100%);
+            transition: .4s;
+
+
+        }
+
+        &:hover::before{
+        
+            height: 70%;
+
+        }
+        
+        .tag {
+
+            display: flex;
+            align-self: flex-end;
+            z-index: 100;
+
+            .desc {
+                align-self: center;
+                font-size: 2rem;
+                color: white;
+                margin-right: 2rem;
+
+                .name {
+
+                    font-weight: bold;
+                    
+                }
+            }
+
+            .sticker {
+
+                width: 12rem;
+            }
+        }
+    
+    }
+    
+    
+    
+    .img-1 {
+    
+        grid-area: img-1;
+        min-height: 71rem;
+        background-image: url(/img/mosaic/p01.jpg);
+    }
+    
+    .img-2 {
+    
+        grid-area: img-2;
+        background-image: url(/img/mosaic/p02.jpg);
+    }
+    
+    .img-3 {
+    
+        grid-area: img-3;
+        background-image: url(/img/mosaic/p03.jpg);
+    }
+    
+    
+    .img-4 {
+    
+        grid-area: img-4;
+        background-image: url(/img/mosaic/p04.jpg);
+    }
+    
+    
+    .img-5 {
+    
+        grid-area: img-5;
+        min-height: 71rem;
+        background-image: url(/img/mosaic/p05.jpg);
+    }
+    
+    
+    .img-6 {
+    
+        grid-area: img-6;
+        background-image: url(/img/mosaic/p06.jpg);
+    }
+    
+    
+    .img-7 {
+    
+        grid-area: img-7;
+        background-image: url(/img/mosaic/p07.jpg);
+    }
+    
+    .img-8 {
+    
+        grid-area: img-8;
+        min-height: 71rem;
+        background-image: url(/img/mosaic/p08.jpg);
+    }
+
+    .img-9 {
+    
+        grid-area: img-9;
+        background-image: url(/img/mosaic/p09.jpg);
+    }
+
+    .img-10 {
+    
+        grid-area: img-10;
+        background-image: url(/img/mosaic/p10.jpg);
+    }
+
+    .img-11 {
+    
+        grid-area: img-11;
+        background-image: url(/img/mosaic/p11.jpg);
+    }
+
+    .img-12 {
+    
+        grid-area: img-12;
+        background-image: url(/img/mosaic/p12.jpg);
+    }
+
+    .img-13 {
+    
+        grid-area: img-13;
+        background-image: url(/img/mosaic/p13.jpg);
+    }
+
+    .img-14 {
+    
+        grid-area: img-14;
+        min-height: 71rem;
+        background-image: url(/img/mosaic/p14.jpg);
+    }
+ }
+
+ .seemore_btn {
+
+    width: 50%;
+    height: auto;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    margin: 4rem auto;
+    padding: 1rem 0;
+    background-color: $headerred;
+    transition: .4s;
+    cursor: pointer;
+
+    &:hover {
+
+        background-color: $red;
+
+    }
+
+ }
 
 }

@@ -1,0 +1,20 @@
+footer {
+    
+    width: 100vw;
+    margin-top: 16rem;
+    background-color: $headerred;
+    color: white;
+    padding: 8rem;
+
+    h3 {
+
+        font-size: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .copy_right {
+
+        display: flex;
+        justify-content: space-between;
+    }
+}
