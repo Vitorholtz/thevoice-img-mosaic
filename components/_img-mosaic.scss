@@ -28,7 +28,7 @@
     .img_gallery{
      
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 1rem;
     grid-template-areas: 
@@ -108,26 +108,26 @@
     
         grid-area: img-1;
         min-height: 71rem;
-        background-image: url(/img/mosaic/p01.jpg);
+        background-image: url(img/mosaic/p01.jpg);
     }
     
     .img-2 {
     
         grid-area: img-2;
-        background-image: url(/img/mosaic/p02.jpg);
+        background-image: url(img/mosaic/p02.jpg);
     }
     
     .img-3 {
     
         grid-area: img-3;
-        background-image: url(/img/mosaic/p03.jpg);
+        background-image: url(img/mosaic/p03.jpg);
     }
     
     
     .img-4 {
     
         grid-area: img-4;
-        background-image: url(/img/mosaic/p04.jpg);
+        background-image: url(img/mosaic/p04.jpg);
     }
     
     
@@ -135,65 +135,65 @@
     
         grid-area: img-5;
         min-height: 71rem;
-        background-image: url(/img/mosaic/p05.jpg);
+        background-image: url(img/mosaic/p05.jpg);
     }
     
     
     .img-6 {
     
         grid-area: img-6;
-        background-image: url(/img/mosaic/p06.jpg);
+        background-image: url(img/mosaic/p06.jpg);
     }
     
     
     .img-7 {
     
         grid-area: img-7;
-        background-image: url(/img/mosaic/p07.jpg);
+        background-image: url(img/mosaic/p07.jpg);
     }
     
     .img-8 {
     
         grid-area: img-8;
         min-height: 71rem;
-        background-image: url(/img/mosaic/p08.jpg);
+        background-image: url(img/mosaic/p08.jpg);
     }
 
     .img-9 {
     
         grid-area: img-9;
-        background-image: url(/img/mosaic/p09.jpg);
+        background-image: url(img/mosaic/p09.jpg);
     }
 
     .img-10 {
     
         grid-area: img-10;
-        background-image: url(/img/mosaic/p10.jpg);
+        background-image: url(img/mosaic/p10.jpg);
     }
 
     .img-11 {
     
         grid-area: img-11;
-        background-image: url(/img/mosaic/p11.jpg);
+        background-image: url(img/mosaic/p11.jpg);
     }
 
     .img-12 {
     
         grid-area: img-12;
-        background-image: url(/img/mosaic/p12.jpg);
+        background-image: url(img/mosaic/p12.jpg);
     }
 
     .img-13 {
     
         grid-area: img-13;
-        background-image: url(/img/mosaic/p13.jpg);
+        background-image: url(img/mosaic/p13.jpg);
     }
 
     .img-14 {
     
         grid-area: img-14;
         min-height: 71rem;
-        background-image: url(/img/mosaic/p14.jpg);
+        background-image: url(img/mosaic/p14.jpg);
     }
  }
 

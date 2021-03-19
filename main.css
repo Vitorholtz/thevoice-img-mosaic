@@ -172,7 +172,7 @@ a:visited {
 }
 
 .hero {
-  background-image: url("/img/bgpalco.png");
+  background-image: url("img/bgpalco.png");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -364,28 +364,28 @@ a:visited {
   -ms-grid-column: 1;
   grid-area: img-1;
   min-height: 71rem;
-  background-image: url(/img/mosaic/p01.jpg);
+  background-image: url(img/mosaic/p01.jpg);
 }
 
 .img_mosaic .img_gallery .img-2 {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: img-2;
-  background-image: url(/img/mosaic/p02.jpg);
+  background-image: url(img/mosaic/p02.jpg);
 }
 
 .img_mosaic .img_gallery .img-3 {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
   grid-area: img-3;
-  background-image: url(/img/mosaic/p03.jpg);
+  background-image: url(img/mosaic/p03.jpg);
 }
 
 .img_mosaic .img_gallery .img-4 {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: img-4;
-  background-image: url(/img/mosaic/p04.jpg);
+  background-image: url(img/mosaic/p04.jpg);
 }
 
 .img_mosaic .img_gallery .img-5 {
@@ -394,21 +394,21 @@ a:visited {
   -ms-grid-column: 3;
   grid-area: img-5;
   min-height: 71rem;
-  background-image: url(/img/mosaic/p05.jpg);
+  background-image: url(img/mosaic/p05.jpg);
 }
 
 .img_mosaic .img_gallery .img-6 {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: img-6;
-  background-image: url(/img/mosaic/p06.jpg);
+  background-image: url(img/mosaic/p06.jpg);
 }
 
 .img_mosaic .img_gallery .img-7 {
   -ms-grid-row: 3;
   -ms-grid-column: 2;
   grid-area: img-7;
-  background-image: url(/img/mosaic/p07.jpg);
+  background-image: url(img/mosaic/p07.jpg);
 }
 
 .img_mosaic .img_gallery .img-8 {
@@ -417,42 +417,42 @@ a:visited {
   -ms-grid-column: 1;
   grid-area: img-8;
   min-height: 71rem;
-  background-image: url(/img/mosaic/p08.jpg);
+  background-image: url(img/mosaic/p08.jpg);
 }
 
 .img_mosaic .img_gallery .img-9 {
   -ms-grid-row: 4;
   -ms-grid-column: 2;
   grid-area: img-9;
-  background-image: url(/img/mosaic/p09.jpg);
+  background-image: url(img/mosaic/p09.jpg);
 }
 
 .img_mosaic .img_gallery .img-10 {
   -ms-grid-row: 4;
   -ms-grid-column: 3;
   grid-area: img-10;
-  background-image: url(/img/mosaic/p10.jpg);
+  background-image: url(img/mosaic/p10.jpg);
 }
 
 .img_mosaic .img_gallery .img-11 {
   -ms-grid-row: 5;
   -ms-grid-column: 2;
   grid-area: img-11;
-  background-image: url(/img/mosaic/p11.jpg);
+  background-image: url(img/mosaic/p11.jpg);
 }
 
 .img_mosaic .img_gallery .img-12 {
   -ms-grid-row: 6;
   -ms-grid-column: 2;
   grid-area: img-12;
-  background-image: url(/img/mosaic/p12.jpg);
+  background-image: url(img/mosaic/p12.jpg);
 }
 
 .img_mosaic .img_gallery .img-13 {
   -ms-grid-row: 6;
   -ms-grid-column: 1;
   grid-area: img-13;
-  background-image: url(/img/mosaic/p13.jpg);
+  background-image: url(img/mosaic/p13.jpg);
 }
 
 .img_mosaic .img_gallery .img-14 {
@@ -461,7 +461,7 @@ a:visited {
   -ms-grid-column: 3;
   grid-area: img-14;
   min-height: 71rem;
-  background-image: url(/img/mosaic/p14.jpg);
+  background-image: url(img/mosaic/p14.jpg);
 }
 
 .img_mosaic .seemore_btn {
