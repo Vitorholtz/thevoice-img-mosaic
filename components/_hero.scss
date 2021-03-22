@@ -14,7 +14,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 95rem;
+    max-width: 75rem;
     height: 100vh;
     margin: auto;
     color: $white;
@@ -46,7 +46,7 @@
 
             h1 {
 
-                font-size: 5rem;
+                font-size: 4rem;
                 margin-bottom: 4rem;
             }
         }
@@ -61,7 +61,7 @@
 
                 img {
 
-                    width: 16rem;
+                    width: 12rem;
                     transition: .3s;
                     border-radius: 10rem;
 
